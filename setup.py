@@ -51,6 +51,12 @@ REPOS = {
         "run": "# Configs only",
         "private": True,
     },
+    "bokukit": {
+        "desc": "All-in-One Security Research Toolkit",
+        "deps": ["pip install colorama beautifulsoup4 lxml httpx scrapfly-sdk requests"],
+        "run": "python3 bokukit.py",
+        "private": True,
+    },
     "stripe-checker-edu": {
         "desc": "Stripe Payment Auth Checker (Educational)",
         "deps": ["pip install stripe"],
